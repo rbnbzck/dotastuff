@@ -14,4 +14,4 @@ test_datensatz$time <- format(test_datensatz$start_time, "%H:%M:%S")
 
 test_datensatz <- test_datensatz %>% filter(day > "2022-01-01")
 test_datensatz$site <- ifelse(test_datensatz$player_slot <= 127, 1 , 0)
-test_datensatz$site <- re
+test_datensatz$site <- redddddd
